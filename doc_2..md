@@ -1,32 +1,32 @@
-Question 1: Program to check if the given expression has balanced parenthesis using stack . 
-
-In this program , the input expression is checked if the input expression has complete pair of parenthesis like :'()','{}','[]', using stack whick follows Last In First Out(LIFO) principle. 
-
-In program following functions are used:
-
-1. void push(char c):
-
-=> The function take an character argument c. it initializes c to the top value of stack.
-
-2. char pop():
-
-=>The pop function returns  the removed/popped value of the top of stack.
-
-3. int match(char open, char close):
-
-=> The function takes two character arguments .
-The function makes sure if the opening and closing brackets match . Basically , if opening bracket is '{' , the closing bracket is '}' strictle .If it matches , the function returns true value '1' else returns false value '0'.
-
-4. int balance(char exp[]):
-=> The function takes a character argument . It travels/traverses throughout the input expression and makes sure if the input parenthesis present in the expression are balanced . 
+=>Question 2 : to convert infix mathematican expression to postfix expression and evaluate.
 
 
-Main ():
-The main function take input expression from user using fgets . It passes the expression to the balance function and returns the result if the parenthesis is balanced or not and prints the result .
+This program converts an infix expression into a postfix expression and thenevaluates the postfix expression using a stack.
+
+A stack is used to store operators during conversion and operands during evaluation.
+
+Functions used in the programme are:
+=> push() and pop()  
+  Used to insert and remove elements from the stack.
+
+=> priority(char op) 
+  Returns the precedence of operators.
+
+=> apply(int a, int b, char op) 
+  Performs arithmetic operations during postfix evaluation.
+
+Main():
+The main function does following tasks:
+-takes an infix expression as input,
+- converts it into postfix,
+-form,evaluates the postfix expression,
+-and displays the result.
 
 
-Output :
+let us suppose input is :
+3+5*2
+
+the output is :
 ![Output of Question 2][def]
-
 
 [def]: images/output_2.png
