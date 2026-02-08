@@ -26,7 +26,7 @@ The main function take input expression from user using fgets . It passes the ex
 
 
 Output :
-![Output of Question 1][def]
+![Output of Question 2][def]
 
 
-[def]: images/output_1.png
+[def]: images/output_2.png
