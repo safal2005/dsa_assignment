@@ -28,3 +28,8 @@ Enter values:
 
 the output is:
 Reverse Traversal: 50 40 30 20 10
+
+![Output of Question 3][def]
+
+[def]: images/output_3.png
+
